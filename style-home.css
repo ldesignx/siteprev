@@ -1,0 +1,740 @@
+
+@font-face {
+    font-family: 'Barcelony Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Barcelony Regular'), url('/fonts/Barcelony.woff') format('woff');
+}
+    
+.trabalhos-reality {
+    display: flex;
+    height: 500px;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    padding-left: 4rem;
+}
+
+.titulo-secao.reality h2, .titulo-secao.influenciadores h2, .contato-titulo-e-form h2 {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 4.4rem;
+    letter-spacing: -0.05em;
+    color: var(--principal);
+    max-width: 200px;
+    line-height: 65px;
+    margin-bottom: 3rem;
+    background: url(images/estrela.svg) top center no-repeat;
+    background-size: 14px;
+    background-position: center  67px;
+}
+
+.titulo-secao.reality p, .titulo-secao.influenciadores p {
+    text-transform: uppercase;
+    font-size: .6rem;
+    color: var(--textos-secundario);
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.titulo-secao.reality p:before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background: var(--textos-secundario);
+    opacity: 0.1;
+    right: 15px;
+    margin-top: 4px;
+}
+
+.cards-reality {
+    height: 420px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 4rem;
+}
+
+.trabalhos-influenciadores {
+    margin-bottom: 9rem;
+    height: 574px;
+    overflow: hidden;
+    position: relative;
+}
+
+.titulo-secao.influenciadores p {
+    width: 47%;
+    display: block;
+    text-align: left;
+}
+
+.titulo-secao.influenciadores p:before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background: var(--textos-secundario);
+    opacity: 0.1;
+    margin-top: 4px;
+    left: 110px;
+}
+
+.titulo-secao.influenciadores {
+    display: flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin-bottom: -5rem;
+}
+
+.titulo-secao.influenciadores h2 {
+    max-width: 100%;
+    width: 100%;
+    letter-spacing: -0.02em;
+    background-size: 14px;
+    background-image: url(images/estrela.svg),url(images/estrela.svg);
+    background-position: right 1px, 501px 76px;
+    background-repeat: no-repeat,no-repeat;
+    height: 107px;
+}
+
+.influenciadores a {
+    border-bottom: 2px solid var(--principal);
+    color: var(--principal);
+}
+
+a.ver-mais {
+    color: var(--principal);
+    border-bottom: 2px solid var(--principal);
+    font-weight: 500;
+    position: absolute;
+    bottom: 2px;
+    z-index: 1111;
+}
+
+.ver-mais a {
+    color: var(--principal);
+    border-bottom: 1px solid var(--principal);
+}
+
+.Sobre-gp {
+    display: flex;
+    justify-content: space-between;
+    background: url(images/background.svg);
+    padding: 9rem 0rem;
+}
+
+.area-sobre-descricao {
+    flex: 1;
+}
+
+.foto-gp {
+    flex: 1;
+}
+
+.area-sobre-descricao h2 {
+    font-size: 4.6rem;
+    color: #fff;
+    font-family: 'Barcelony Regular';
+    font-weight: normal;
+    background-size: 17px;
+    background-image: url(images/estrela2.svg),url(images/estrela2.svg);
+    background-position: right 160px, 18px 3px;
+    background-repeat: no-repeat,no-repeat;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.area-sobre-descricao p {
+    font-weight: 300;
+    font-size: .86rem;
+    text-align: justify;
+    margin-top: 1rem;
+    color: #fff;
+    line-height: 22px;
+}
+
+.contato {
+    background: rgb(196 196 196 / 11%);
+    padding: 4rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-titulo-e-form {
+    flex: 1;
+    height: 500px;
+}
+
+.contato-titulo-e-form h2 {
+    font-size: 3.5rem;
+    background-size: 15px;
+    background-image: url(images/estrela.svg),url(images/estrela.svg);
+    background-position: right 1px, 1px 70px;
+    background-repeat: no-repeat,no-repeat;
+    height: 95px;
+}
+
+.contato-titulo-e-form input, .contato-titulo-e-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 15px;
+    border-radius: 20px;
+    border: unset;
+    background: rgb(196 196 196 / 16%);
+    outline: unset;
+}
+
+.infos-contato {
+    flex: 1;
+    border-left: 1px solid #00000012;
+    padding: 15px;
+    margin: 2rem;
+    color: var(--clarinhos);
+    font-size: .90rem;
+    line-height: 20px;
+    text-align: justify;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 8rem;
+}
+
+.infos-contato p {
+    font-weight: 300;
+    line-height: 22px;
+}
+
+footer {
+    background: var(--principal);
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: var(--branco);
+}
+
+.Sobre-gp.container {
+    height: 1px;
+}
+
+.area-sobre-descricao:before {
+    content: "";
+    height: 1px;
+    background: #ffffff0d;
+    position: absolute;
+    width: 100%;
+    top: -70px;
+}
+
+.foto-gp img {
+    width: 70%;
+    margin-left: 6rem;
+}
+
+.box-home-influ {
+    width: 31%;
+    overflow: hidden;
+    height: 450px;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.box-home-influ:nth-child(2) {
+    height: 335px;
+}
+
+.box-home-influ:nth-child(3) {
+    height: 420px;
+}
+ 
+
+figure.box-home-influ figcaption {
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    justify-content: center;
+    color: #fff;
+    bottom: -150px;
+    background: var(--principal);
+    text-align: left;
+    font-weight: 300;
+}
+
+.box-home-influ:hover img {
+    margin-top: -28px;
+}
+
+.box-home-influ:hover figcaption {
+    bottom: 0;
+}
+
+figure.box-home-influ img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.trabalhos-influenciadores .row {
+    align-items: flex-end;
+}
+
+.box-home-influ figcaption > h3 {
+    letter-spacing: -0.4px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 1.27rem;
+}
+
+
+.box-home-influ figcaption > button {
+    padding: 9px;
+    border: 1px solid #ffffff17;
+    text-transform: uppercase;
+    font-size: 9px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: Montserrat;
+    background: unset;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.box-home-influ figcaption > button:hover {
+    background: #fff;
+    color: var(--principal);
+}
+
+.mais-informacoes-card {
+    height: 84px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 6px;
+}
+
+.card-cliente {
+    height: 363px;
+    border: 1px solid rgb(0 0 0 / 5%);
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    width: 6.70%!important;
+}
+ 
+
+.bolinhas {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-top: -9px;
+}
+
+.bolinhas span {
+    width: 10px;
+    height: 10px;
+    background: #00000008;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.imagem-card-cliente {
+    height: 224px;
+    background: #f7f7f7;
+    border-radius: 20px;
+    margin-bottom: .80rem;
+    margin-top: 9px;
+}
+
+.imagem-card-cliente img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.nome-e-mais h2 {
+    font-size: 1rem;
+    letter-spacing: -0.60px;
+    color: var(--principal);
+    font-weight: 600;
+}
+
+.btn-mais-cliente button {
+    padding: 9px 6px;
+    border: 1px solid #ffffff17;
+    text-transform: uppercase;
+    font-size: 9px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: Montserrat;
+    letter-spacing: 0.50px;
+    color: #fff;
+    font-weight: 300;
+    background: var(--principal);
+    width: 100%;
+}
+
+.nome-e-mais {
+    height: 75px;
+    align-items: center;
+    display: flex;
+    width: 51%;
+}
+
+.btn-mais-cliente {
+    width: 47%;
+}
+
+.trabalhos-influenciadores .row {
+    flex-wrap: wrap;
+}
+
+.contato-titulo-e-form button {
+    border: unset;
+    background: var(--principal);
+    font-family: Montserrat;
+    color: #fff;
+    width: 27%;
+    font-size: 13px;
+    padding: 12px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.contato-titulo-e-form button:hover {filter: brightness(1.2);}
+
+.openactive {
+    height: auto;
+}
+
+.openactiveheig {
+    display: none;
+}
+
+.btn-mais-cliente button:hover {
+    background: var(--verde-dois);
+}
+
+.card-cliente:hover img {
+    filter: brightness(0.8);
+}
+
+.card-cliente:first-child {
+    margin: 46px;
+}
+
+.contato a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid #00000012;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.contato a:hover {
+    background: var(--principal);
+    color: #fff;
+    border: 1px solid var(--principal);
+}
+
+
+
+
+
+
+
+
+ @media (max-width: 800px) {  
+
+header h1 {
+    font-size: 2rem;
+    line-height: initial;
+}
+
+.header {
+    padding: 10px;
+}
+
+.topo-titulo h1:before {
+    right: -14px;
+}
+
+header h2 {
+    margin-top: 10rem;
+    line-height: 23px;
+}
+
+.trabalhos-reality {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+.cards-reality {
+    width: 100%!important;
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    margin-left: -16px;
+}
+
+.card-cliente {
+    width: 4%!important;
+    margin: 10px;
+    padding: 14px;
+}
+
+.trabalhos-reality {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.card-cliente:first-child {
+    margin: unset;
+}
+
+.titulo-secao.influenciadores h2 {
+    font-size: 3rem;
+}
+
+.box-home-influ, .box-home-influ:nth-child(2), .box-home-influ:nth-child(3) {
+    width: 100%;
+    height: 225px;
+    margin-bottom: 10px;
+}
+
+.trabalhos-influenciadores {
+    width: 95%;
+    margin: auto;
+    height: 1025px;
+}
+
+a.ver-mais {
+    bottom: -6px;
+    width: 103%;
+    background: #fff;
+}
+
+.Sobre-gp {
+    margin-top: 5rem;
+    padding: 7rem 2rem;
+    text-align: center;
+}
+
+.Sobre-gp .row {
+    flex-wrap: wrap;
+}
+
+.area-sobre-descricao h2 {
+    margin-bottom: 6rem;
+}
+
+.foto-gp {
+    width: 100%;
+    display: block;
+    flex: unset;
+    height: 375px;
+}
+
+.foto-gp img {
+    width: auto;
+    margin: unset;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contato .row {
+    display: block;
+    height: auto;
+    padding: 30px;
+}
+
+.contato-titulo-e-form {
+    flex: unset;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.infos-contato {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    border: unset;
+    border-top: 1px solid #00000012;
+    flex: unset;
+    padding-top: 2rem;
+    margin-top: 4rem;
+}
+
+.row .contato-titulo-e-form {
+    display: block;
+}
+
+.area-sobre-descricao:before {
+    display: none;
+}
+
+.topo-titulo {
+    overflow: hidden;
+}
+
+.hamb {
+    width: 40px;
+    height: 40px;
+    margin: 35px 8px;
+    position: absolute;
+    z-index: 1111111;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    background: #1b838b;
+    position: absolute;
+    top: 0px;
+    z-index: 11111;
+    margin-top: 8rem;
+    left: -800px;
+}
+
+nav.active {
+    width: 100%;
+    height: 900vw;
+    margin-left: 0px;
+    background: #1e7b83;
+    position: absolute;
+    top: -130px;
+    left: 0px;
+    z-index: 11111;
+    padding-top: 8rem;
+}
+
+nav li {
+    list-style: none;
+    display: block;
+    margin: 18px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.hamb span {
+    width: 40px;
+    height: 3px;
+    background: #ffffffbd;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+ 
+
+.hamb span:nth-child(2) {
+    width: 34px;
+}
+
+.spanc span:nth-child(2) {
+    opacity: 0;
+}
+
+.spanc span:nth-child(1) {
+    transform: rotate(-39deg);
+}
+
+.spanc span:nth-child(3) {
+    transform: rotate(218deg);
+    margin-top: -19px;
+}
+
+ 
+.bolinhas {
+    margin-top: 0px;
+}
+
+.mais-informacoes-card {
+    height: 90px;
+    text-align: left;
+}
+
+.btn-mais-cliente button {
+    padding: 9px 7px;
+}
+
+.nome-e-mais h2 {
+    font-size: .9;
+    font-size: .9rem;
+}
+
+footer {
+    flex-direction: column;
+    line-height: 34px;
+    text-align: center;
+}
+
+.titulo-secao.reality h2, .titulo-secao.influenciadores h2, .contato-titulo-e-form h2 {
+    text-align: center;
+    display: block;
+    max-width: 85%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.area-sobre-descricao p {
+    margin-bottom: 2rem;
+}
+.openactive {
+    height: auto;
+}
+}
+
+
+  @media (min-width: 200px) and ( max-width: 300px) { 
+.area-sobre-descricao h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.titulo-secao.influenciadores h2 {
+    font-size: 2.2rem;
+}
+.foto-gp {
+    height: 300px;
+}
+header h1 {
+    font-size: 1.3rem;
+    line-height: initial;
+    margin-top: 5rem;
+}
+.topo-titulo h1:before {
+    background-size: 53px;
+}
+.Sobre-gp {
+    padding: 7rem 1rem;
+}
+.header {
+    padding: 10px;
+    height: 619px;
+}
+}  
