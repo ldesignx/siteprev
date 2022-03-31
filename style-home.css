@@ -3,7 +3,7 @@
     font-family: 'Barcelony Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Barcelony Regular'), url('/fonts/Barcelony.woff') format('woff');
+    src: local('Barcelony Regular'), url('./fonts/Barcelony.woff') format('woff');
 }
     
 .trabalhos-reality {
