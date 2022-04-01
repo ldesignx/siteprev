@@ -19,7 +19,7 @@
 .titulo-secao.reality h2, .titulo-secao.influenciadores h2, .contato-titulo-e-form h2 {
     font-family: 'Playfair Display';
     font-style: italic;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 4.4rem;
     letter-spacing: -0.05em;
     color: var(--principal);
@@ -112,7 +112,7 @@
 a.ver-mais {
     color: var(--principal);
     border-bottom: 2px solid var(--principal);
-    font-weight: 500;
+    font-weight: 700;
     position: absolute;
     bottom: 2px;
     z-index: 1111;
@@ -212,7 +212,7 @@ a.ver-mais {
 }
 
 .infos-contato p {
-    font-weight: 300;
+    font-weight: 400;
     line-height: 22px;
 }
 
@@ -713,7 +713,7 @@ footer {
 header h2 {
     font-family: 'Montserrat'!important;
     font-style: normal;
-    font-weight: 300!important;
+    font-weight: 400!important;
     font-size: 16px!important;
     color: #fff!important;
 }
